@@ -1,0 +1,169 @@
+.container-body{
+	padding-top: 90px !important;
+}
+
+#nav-header {
+    width: 100%;
+    height: 60px;
+    position: relative;
+    background-color: black;
+}
+ 
+#bar-one {
+	margin-left: 200px;
+    width: 3.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EBCD46;
+}
+
+#bar-two {
+	margin-left: 540px;
+    width: 1.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EBCD46;
+}
+
+#bar-three {
+	margin-left: 580px;
+    width: 0.2%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EBCD46;
+}
+
+#bar-four{
+	margin-left: 590px;
+    width: 0.1%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #EBCD46;
+}
+
+#title-nav{
+	margin-left: 140px;
+}
+
+#date-nav{
+	margin-left: 185px;
+}
+
+#sub-nav {
+    width: 100%;
+    height: 15px;
+    position: relative;
+    background-color: #1E1A95;
+}
+
+#middle-sub-nav{
+	/*position: absolute;*/
+	width: 50%;
+	margin: 0 auto;
+	background-color: #EBCD46;
+	height: 100%;
+}
+
+#footer {
+    width:100%;
+    height:20px;
+    position:absolute;
+    bottom:0;
+    left:0;
+    background-color: black;
+}
+
+#footer-bar-one{
+    margin-right: 310px;
+    width: 6%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #EBCD46;
+}
+
+#footer-bar-two{
+    margin-right: 250px;
+    width: 2%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #EBCD46;
+}
+
+#footer-bar-three{
+    margin-right: 220px;
+    width: 0.5%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #EBCD46;
+}
+
+.btn-L{
+    padding: 11px 80px !important;
+    font-size: 20px;
+    width: 330px;
+}
+
+.btn-XL{
+    padding: 11px 100px !important;
+    font-size: 24px;
+}
+
+
+/* version 2 */
+
+.navbar-inner{
+    background: #4f85bb; /* Old browsers */
+background: -moz-linear-gradient(top, #4f85bb 0%, #4f85bb 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#4f85bb), color-stop(100%,#4f85bb)); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(top, #4f85bb 0%,#4f85bb 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(top, #4f85bb 0%,#4f85bb 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(top, #4f85bb 0%,#4f85bb 100%); /* IE10+ */
+background: linear-gradient(to bottom, #4f85bb 0%,#4f85bb 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f85bb', endColorstr='#4f85bb',GradientType=0 ); /* IE6-9 */
+
+}
+
+.navbar .nav > li > a{
+    color: white;
+    text-shadow: 0 1px 0 black !important;
+
+}
+
+.navbar .nav > li > a:hover{
+    color: red;
+}
+
+.navbar .brand{
+    color: white;
+    text-shadow: 0 1px 0 black !important;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.navbar-inner{
+    min-height: 7px;
+}
+
+
+.btn-info{
+    /*background-image: -webkit-linear-gradient(top, #4f85bb, #4f85bb) !important;*/
+    background-image: -webkit-linear-gradient(top, #4f85bb, #2f96b4);
+    /*background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4f85bb), to(#4f85bb));*/
+}
+body{
+    background-image: url('../img/white_wall_hash.png');
+}
